@@ -6,6 +6,12 @@ O FinPilot é um conceito de aplicativo de organização financeira pessoal que 
 
 O projeto foi desenvolvido como parte do desafio de Vibe Coding da [Digital Innovation One (DIO)](https://www.dio.me/), em parceria com o Santander.
 
+## 🌐 Aplicação publicada
+
+🔗 [Acessar FinPilot](https://pixel-perfect-recreation-2929.lovable.app)
+
+**Aviso:** O protótipo utiliza dados financeiros fictícios e não realiza movimentações financeiras reais.
+
 ## 🎯 1. Problema e oportunidade
 
 Muitas pessoas encontram dificuldades para organizar suas finanças pessoais devido à complexidade dos aplicativos tradicionais, à necessidade de registros manuais e à falta de recomendações personalizadas.
