@@ -1,89 +1,210 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💚 FinPilot — Seu copiloto financeiro inteligente
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+**Your finances. Your direction.**
 
-## ✨ O que é Vibe Coding
+O FinPilot é um conceito de aplicativo de organização financeira pessoal que utiliza inteligência artificial, análise de dados e automação para ajudar pessoas a compreender melhor suas finanças, identificar padrões de consumo e alcançar objetivos financeiros.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+O projeto foi desenvolvido como parte do desafio de Vibe Coding da [Digital Innovation One (DIO)](https://www.dio.me/), em parceria com o Santander.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+## 🎯 1. Problema e oportunidade
 
-## 🎯 Desafio
+Muitas pessoas encontram dificuldades para organizar suas finanças pessoais devido à complexidade dos aplicativos tradicionais, à necessidade de registros manuais e à falta de recomendações personalizadas.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+O FinPilot propõe uma experiência mais intuitiva, combinando análise financeira e inteligência artificial em uma única plataforma.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+## 💡 2. Solução proposta
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+O FinPilot funciona como um copiloto financeiro inteligente, oferecendo três pilares:
 
-## 🪄 Etapas do Desafio
+- **Análise financeira:** identifica padrões de consumo e oportunidades de economia.
+- **Orientação personalizada:** oferece informações educativas e sugestões contextualizadas.
+- **Planejamento automatizado:** auxilia na criação de metas e estratégias financeiras.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+## 👥 3. Público-alvo
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+Pessoas que desejam organizar suas finanças, compreender seus hábitos de consumo, controlar despesas e alcançar objetivos financeiros.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Especialmente iniciantes em planejamento financeiro que procuram uma experiência simples e acessível.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+## ⚙️ 4. Principais funcionalidades
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+| Funcionalidade | Descrição |
+|---|---|
+| Dashboard financeiro | Visão geral de receitas, despesas, saldo e economia |
+| Transações | Registro e categorização de movimentações |
+| Assistente IA | Interface conversacional de orientação financeira |
+| Metas financeiras | Criação e acompanhamento de objetivos |
+| Insights inteligentes | Recomendações baseadas nos dados financeiros |
+| Planejamento | Organização do orçamento pessoal |
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+## 🤖 5. Arquitetura conceitual de IA
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+O conceito utiliza três agentes especializados:
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+**Financial Analyst**
+- Analisa receitas e despesas.
+- Identifica padrões de consumo.
+- Apresenta indicadores financeiros.
+
+**Financial Coach**
+- Oferece educação financeira.
+- Sugere hábitos mais saudáveis.
+- Explica oportunidades de economia.
+
+**Financial Planner**
+- Auxilia na definição de metas.
+- Elabora sugestões de planejamento.
+- Acompanha objetivos financeiros.
+
+No protótipo, as respostas são simuladas. Não existe integração com um modelo de IA em produção.
+
+## 📋 6. Product Requirements Document (PRD)
+
+### Visão do produto
+
+Criar uma aplicação moderna de organização financeira pessoal que combine inteligência artificial, análise de dados e planejamento automatizado.
+
+### Problema
+
+Aplicativos tradicionais frequentemente exigem muitos registros manuais e apresentam informações financeiras sem contextualização suficiente.
+
+### Objetivo
+
+Simplificar a organização financeira por meio de uma experiência conversacional e de análises compreensíveis.
+
+### Requisitos funcionais
+
+1. Registrar receitas e despesas.
+2. Categorizar transações.
+3. Apresentar indicadores financeiros.
+4. Permitir a criação de metas.
+5. Exibir recomendações personalizadas.
+6. Disponibilizar um assistente financeiro conversacional.
+
+### Requisitos não funcionais
+
+- Interface responsiva.
+- Navegação intuitiva.
+- Clareza na apresentação dos dados.
+- Proteção das informações pessoais.
+- Transparência sobre recomendações geradas por IA.
+
+### Escopo do MVP
+
+O MVP contempla um protótipo com dados fictícios, navegação entre páginas, demonstração das funcionalidades financeiras e orientação simulada por IA.
+
+Integrações bancárias e modelos avançados de Machine Learning não fazem parte do escopo inicial.
+
+## ✨ 7. Prompt final utilizado
+
+O desenvolvimento foi orientado pelo seguinte prompt:
+
+```text
+Create a modern and responsive personal finance
+management application called FinPilot.
+
+The application must provide a dashboard-first
+experience, combining financial analytics,
+conversational AI and personalized financial planning.
+
+Visual identity:
+- Dark forest green.
+- Mint green accents.
+- Warm white backgrounds.
+- Minimalist fintech design.
+
+Main features:
+1. Financial dashboard.
+2. Transaction management.
+3. AI financial assistant.
+4. Savings goals.
+5. Personalized financial insights.
+6. Financial planning.
+
+Create three conceptual AI agents:
+- Financial Analyst.
+- Financial Coach.
+- Financial Planner.
+
+Use fictional Brazilian financial data,
+formatted in Brazilian Real (BRL).
+
+The prototype must include interactive navigation,
+financial charts, transaction management,
+savings goals and responsive layouts.
+
+Use simulated AI responses and local
+demonstration data.
+
+Do not implement real bank integrations
+or financial transactions.
+
+Prioritize usability, accessibility,
+visual consistency and a professional
+fintech experience.
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+## 🧪 8. Validação do protótipo
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+Foram realizados sete testes manuais no ambiente de visualização do Lovable.
 
-### 2. Explorando o Lovable na Prática
+| Teste | Resultado |
+|---|---|
+| Acesso à página de transações | Aprovado |
+| Acesso ao assistente IA | Aprovado |
+| Acesso às metas financeiras | Aprovado |
+| Acesso aos insights | Aprovado |
+| Adição de transação | Aprovado |
+| Carregamento do gráfico após atualização | Aprovado |
+| Visualização em janela menor | Aprovado |
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+**Resultado: 7 de 7 testes aprovados.**
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+Os testes foram realizados manualmente e validam os comportamentos observados no protótipo.
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+## 🖥️ 9. Demonstração visual
 
-### 3. Entregando o Desafio na DIO
+As capturas de tela do projeto serão organizadas na pasta `assets/`.
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+### Dashboard
+![FinPilot Dashboard](assets/dashboard.png)
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+### Transações
+![FinPilot Transactions](assets/transactions.png)
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+### Assistente IA
+![FinPilot AI Assistant](assets/assistant.png)
 
-## 💬 Conclusão
+### Metas financeiras
+![FinPilot Savings Goals](assets/goals.png)
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+### Insights
+![FinPilot Insights](assets/insights.png)
+
+## 🛠️ 10. Ferramentas utilizadas
+
+- **Lovable:** criação do protótipo utilizando Vibe Coding.
+- **Inteligência Artificial generativa:** estruturação de requisitos e geração da aplicação.
+- **GitHub:** documentação e versionamento do projeto.
+
+## 🔒 11. Segurança e privacidade
+
+O conceito considera princípios de privacidade e proteção de dados, incluindo transparência, consentimento e proteção de informações pessoais, tendo a LGPD como referência.
+
+O protótipo utiliza informações fictícias e não realiza movimentações financeiras reais.
+
+## 💭 12. Reflexão sobre o processo
+
+O desenvolvimento do FinPilot demonstrou como a inteligência artificial pode atuar como parceira no processo de concepção de produtos digitais.
+
+Um dos principais aprendizados foi perceber a importância de estruturar bem os requisitos antes de solicitar a geração de uma aplicação. Um prompt claro, com contexto, funcionalidades e objetivos definidos, contribui para resultados mais alinhados à proposta do produto.
+
+O processo também mostrou que gerar uma aplicação não é suficiente. É necessário avaliar o resultado, testar funcionalidades, identificar inconsistências e pensar na experiência do usuário.
+
+Outro aprendizado importante foi compreender que a IA pode acelerar etapas do desenvolvimento, mas a capacidade humana de analisar, questionar e validar os resultados continua sendo essencial.
+
+O FinPilot representa um exercício de integração entre inteligência artificial, análise de dados, automação e desenvolvimento de produtos digitais.
+
+---
+
+**Projeto desenvolvido para o desafio de Vibe Coding — DIO / Santander 2026.** 💚
